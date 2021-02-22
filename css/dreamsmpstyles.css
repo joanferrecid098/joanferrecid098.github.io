@@ -1,0 +1,23 @@
+p{
+    font-style: normal;
+    font-family:Helvetica;
+}
+h1{
+    font-style: normal;
+    font-family: Cursive;
+    font: normal;
+    color: rgb(1, 41, 8);
+}
+h4{
+    font-style: italic;
+    font-family: Cursive;
+    color: gray;
+}
+a{
+    font-style: oblique;
+    font-family: Arial;
+    color: rgb(110, 148, 35);
+}
+h6{
+    font-size: large;
+}
