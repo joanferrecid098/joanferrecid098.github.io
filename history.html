@@ -5,33 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>History</title>
-    <style>
-        p{
-            font-style: initial;
-            color: red;
-            font-size: medium;
-            font-family: Helvetica;
-        }
-        h3{
-            color:green;
-        }
-        h1{
-            font-family: Arial;
-        }
-        h4{
-        font-style: italic;
-        font-family: Cursive;
-        color: gray;
-        }
-        a{
-            font-style: oblique;
-            font-family: Arial;
-            color: rgb(110, 148, 35);
-        }
-        h6{
-            font-size: large;
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/dreamsmpstyles.css">
 </head>
 <body>
     
@@ -41,14 +17,16 @@
     <style>
     </style>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="history.html">History</a>
-        <a href="aboutus.html">About Us</a>
-        <a href="discsaga.html">Disc Saga</a>
-        <a href="players.html">Players</a>
-        <a href="contactus.html">Contact Us</a>
-        <a href="settings.html">Settings</a>
+        <button class="nav-button" onclick="StartUp()">Menu</button>
+        <a href="index.html" class="nav-enlace desaparece">Home</a>
+        <a href="history.html" class="nav-enlace desaparece">History</a>
+        <a href="aboutus.html" class="nav-enlace desaparece">About Us</a>
+        <a href="discsaga.html" class="nav-enlace desaparece">Disc Saga</a>
+        <a href="players.html" class="nav-enlace desaparece">Players</a>
+        <a href="contactus.html" class="nav-enlace desaparece">Contact Us</a>
+        <a href="settings.html" class="nav-enlace desaparece">Settings</a>
     </nav>
+    <p></p>
     <img src="/img/timetable.png" alt="Italian Trulli">
     <h1>Timeline eras</h1>
         <h3>BT (Before Tommy)</h3>
@@ -109,7 +87,5 @@
         <iframe width="856" height="482" src="https://www.youtube.com/embed/KYTqgKWCuF0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="856" height="482" src="https://www.youtube.com/embed/7iJ3nrA9YWM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
-<script>
-    
-</script>
+<script src="/js/index.js"></script>
 </html>
