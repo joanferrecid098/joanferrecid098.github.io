@@ -3,7 +3,7 @@ body{
     padding: 25px;
     color: black;
     font-size: 25px;
-    background-image: url(/img/background.jpg);
+    background-color: lightblue;
 }
 p{
     font-weight: 300;
@@ -16,7 +16,7 @@ h1{
 }
 h4{
     font-family: 'Roboto' sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     color: gray;
 }
 a{
@@ -27,7 +27,7 @@ a{
 }
 h6{
     font-family: 'Roboto', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-size: large;
 }
 .nav-enlace{
@@ -35,6 +35,7 @@ h6{
     color: whitesmoke;
     padding: 8px 25px;
     text-decoration: none;
+    border-radius: 5px;
 }
 .nav-enlace:hover{
     color: pink;
@@ -52,6 +53,8 @@ nav{
     padding: 10px 0;
     border: 2px solid whitesmoke;
     display: none;
+    margin: 5px;
+    border-radius: 5px;
 }
 .darkMode{
     background: red;
@@ -59,7 +62,10 @@ nav{
     padding: 10px 0;
     border: 2px solid whitesmoke;
 }
-@media (max-width: 600px) {
+.flex{
+    display: flex;
+}
+@media (max-width: 1000px) {
     nav{
         flex-direction: column;
     }
@@ -76,5 +82,40 @@ nav{
 .dark-mode {
     background-color: black;
     color: white;
+}
+.text-center{
+    text-align: center;
+}
+.nombre{
+    font-size: 50px;
+    color: rgb(35, 163, 236);
+}
+.columna{
+    background-color: rgb(236, 220, 128);
+    color: #333;
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #888;
+    width: 24%;
+    box-sizing: border-box;
+}
+.contact{
+    background-color: salmon;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.contact:hover{
+    background-color: red;
+    color: black;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
 }
 
