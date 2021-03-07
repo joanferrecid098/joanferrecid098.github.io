@@ -5,3 +5,7 @@ function StartUp() {
      ancla[i].classList.toggle('desaparece');
    }
 }
+function darkMode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
