@@ -1,9 +1,9 @@
 body{
     font-family: 'Roboto', sans-serif;
     padding: 25px;
-    color: black;
+    color: white;
     font-size: 25px;
-    background-color: lightblue;
+    background-color: black;
 }
 p{
     font-weight: 300;
@@ -12,7 +12,7 @@ h1{
     font-style: normal;
     font-family: Cursive;
     font: normal;
-    color: rgb(1, 41, 8);
+    color: white;
 }
 h4{
     font-family: 'Roboto' sans-serif;
@@ -22,7 +22,7 @@ h4{
 a{
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
-    color: rgb(110, 148, 35);
+    color: white;
 
 }
 h6{
@@ -42,7 +42,7 @@ h6{
     background: grey;
 }
 nav{
-    background: rgb(44, 153, 243);
+    background: black;
     padding: 10px;
     display: flex;
     justify-content: space-around;
@@ -92,7 +92,7 @@ nav{
 }
 .columna{
     background-color: rgb(236, 220, 128);
-    color: #333;
+    color: white;
     border: 1px solid #333;
     margin: 0 auto;
     padding: 10px;
@@ -106,7 +106,7 @@ nav{
     display: block;
     padding: 10px;
     text-decoration: none;
-    color: #fff;
+    color: white;
     border-radius: 3px;
     margin-bottom: 10px;
 }
